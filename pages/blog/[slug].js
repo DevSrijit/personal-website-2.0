@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import { getPostBySlug, getAllPosts } from "../../utils/api";
 import Header from "../../components/Header";
 import ContentSection from "../../components/ContentSection";
-import Footer from "../../components/Footer";
 import Head from "next/head";
 import { useIsomorphicLayoutEffect } from "../../utils";
 import { stagger } from "../../animations";
@@ -28,8 +27,7 @@ const BlogPost = ({ post }) => {
         <title>{"Blog - " + post.title}</title>
         <meta name="description" content={post.preview} />
       </Head>
-      {data.showCursor && <Cursor />}
-
+      {data.showCursor && <Cursor />}      
       <div
         className={`container mx-auto mt-10 ${
           data.showCursor && "cursor-none"
@@ -56,7 +54,6 @@ const BlogPost = ({ post }) => {
           </h2>
         </div>
         <ContentSection content={post.content}></ContentSection>
-        <Footer />
       </div>
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">

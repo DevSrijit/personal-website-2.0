@@ -63,6 +63,7 @@ const Blog = ({ posts }) => {
   return (
     showBlog.current && (
       <>
+        <div className="gradient-circle"></div>
         {data.showCursor && <Cursor />}
         <Head>
           <title>Blog</title>
