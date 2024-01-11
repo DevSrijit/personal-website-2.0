@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-<<<<<<< HEAD
-=======
   metadata: {
     title: "Srijit's Personal Website",
     description:
@@ -41,7 +39,6 @@ const nextConfig = {
       // Add more Open Graph tags as needed
     },
   },
->>>>>>> parent of 1b6d58d (NextSeo configuration added)
 };
 
 module.exports = nextConfig;
