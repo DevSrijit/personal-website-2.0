@@ -17,7 +17,7 @@ export const metadata = {
     images: [
       {
         url: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
-        width: 630,
+        width: 1200,
         height: 630,
         alt: "Image description",
       },
@@ -48,7 +48,7 @@ const App = ({ Component, pageProps }) => {
           images: [
             {
               url: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
-              width: 630,
+              width: 1200,
               height: 630,
               alt: "Image description",
             },
