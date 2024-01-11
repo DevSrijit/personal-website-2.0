@@ -1,10 +1,12 @@
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import { NextSeo } from "next-seo";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const App = ({ Component, pageProps }) => {
   return (
     <ThemeProvider defaultTheme="system">
+      <SpeedInsights />
       <NextSeo
         openGraph={{
           type: "website",
