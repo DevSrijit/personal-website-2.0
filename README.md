@@ -1,1 +1,3 @@
-## This is my new personal website !
+## This is my personal website !
+
+credits: @chetanverma16 on GitHub
