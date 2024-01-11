@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
-<<<<<<< HEAD
 import { NextSeo } from "next-seo";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -65,14 +64,6 @@ const App = ({ Component, pageProps }) => {
           image: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
         }}
       />
-=======
-
-const App = ({ Component, pageProps }) => {
-  return (
-    <ThemeProvider
-      defaultTheme="system"
-    >
->>>>>>> parent of 1b6d58d (NextSeo configuration added)
       <Component {...pageProps} />
     </ThemeProvider>
   );
