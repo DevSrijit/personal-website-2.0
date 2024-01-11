@@ -32,7 +32,7 @@ const nextConfig = {
         {
           url: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
           width: 1200,
-          height: 1200,
+          height: 630,
           alt: "Open Graph Image",
         },
       ],
