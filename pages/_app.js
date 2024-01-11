@@ -40,6 +40,9 @@ const App = ({ Component, pageProps }) => {
     <ThemeProvider defaultTheme="system">
       <SpeedInsights />
       <NextSeo
+  title: "Srijit's Personal Website",
+  description:
+    "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
         openGraph={{
           type: "website",
           url: "https://srijit.life",
