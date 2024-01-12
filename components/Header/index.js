@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const router = useRouter();
@@ -38,17 +38,20 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       setTheme(theme === "dark" ? "light" : "dark")
                     }
                   >
-                    <img
+                    <Image
                       className="h-6"
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
-                    ></img>
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
                   </Button>
                 )}
 
                 <Popover.Button>
-                  <img
+                  <Image
                     className="h-5"
                     src={`/images/${
                       !open
@@ -59,7 +62,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
-                  ></img>
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
                 </Popover.Button>
               </div>
             </div>
@@ -76,11 +82,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        router.push("/resume")
-                      }
-                    >
+                    <Button onClick={() => router.push("/resume")}>
                       Resume
                     </Button>
                   )}
@@ -186,10 +188,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
-                <img
+                <Image
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt=""
+                  width={24}
+                  height={24}
+                />
               </Button>
             )}
           </div>
