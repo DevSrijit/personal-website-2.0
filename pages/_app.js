@@ -7,14 +7,14 @@ import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
   title: "Srijit's Personal Website",
   description:
-    "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
+    "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
   author: "Srijit Ghosh",
   openGraph: {
     type: "website",
     url: "https://srijit.life",
     title: "Srijit's Personal Website",
     description:
-      "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
+      "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
     images: [
       {
         url: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
@@ -30,7 +30,7 @@ export const metadata = {
     cardType: "summary_large_image",
     title: "Srijit's Personal Website",
     description:
-      "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
+      "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
     image:
       "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
   },
@@ -47,7 +47,7 @@ const App = ({ Component, pageProps }) => {
           url: "https://srijit.life",
           title: "Srijit's Personal Website",
           description:
-            "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
+            "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
           images: [
             {
               url: "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
@@ -64,7 +64,7 @@ const App = ({ Component, pageProps }) => {
           cardType: "summary_large_image",
           title: "Srijit's Personal Website",
           description:
-            "Srijit Ghosh is a 16yo frontend developer and technologist. This is his personal website.",
+            "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
           image:
             "https://cloud-4tgxbh5wm-hack-club-bot.vercel.app/0frontend_dev.jpeg",
         }}
