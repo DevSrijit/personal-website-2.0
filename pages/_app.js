@@ -39,6 +39,7 @@ export const metadata = {
 const App = ({ Component, pageProps }) => {
   return (
     <ThemeProvider defaultTheme="system">
+      <Analytics />
       <SpeedInsights />
       <NextSeo
         openGraph={{
