@@ -9,8 +9,8 @@ export default function Document() {
           name="description"
           content="Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website."
         />
-         <meta property:"og:image" content:"https://i.postimg.cc/bJL93RLS/0frontend-dev.jpg" />
-         <meta name:"twitter:image" content:"https://i.postimg.cc/bJL93RLS/0frontend-dev.jpg" />
+         <meta property="og:image" content="https://i.postimg.cc/bJL93RLS/0frontend-dev.jpg" />
+         <meta name="twitter:image" content="https://i.postimg.cc/bJL93RLS/0frontend-dev.jpg" />
         <meta
           name="keywords"
           content="srijit, srijit ghosh, srijit ghosh developer, srijit developer, srijit ghosh coder, srijit coder, srijit ghosh teenager, srijit teenager, srijit .life, srijit ghosh .life"
