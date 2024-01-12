@@ -69,7 +69,6 @@ const App = ({ Component, pageProps }) => {
         }}
       />
       <Component {...pageProps} />
-      <Analytics />
     </ThemeProvider>
   );
 };
