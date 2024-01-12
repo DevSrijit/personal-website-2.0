@@ -5,7 +5,6 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="title" content="Srijit's Personal Website." />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="description"
           content="Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website."
