@@ -1,7 +1,8 @@
 {
   "name": "react-portfolio-template",
   "version": "3.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -43,7 +43,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
-                      alt=""
+                      alt="Dark Mode Toggle"
                       width={24}
                       height={24}
                     />
@@ -62,7 +62,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         ? "cancel.svg"
                         : "cancel-white.svg"
                     }`}
-                    alt=""
+                    alt="Hambuger Menu"
                     width={24}
                     height={24}
                   />
@@ -158,7 +158,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <Image
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                  alt=""
+                  alt="Dark Mode Toggle"
                   width={24}
                   height={24}
                 />
@@ -191,7 +191,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <Image
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                  alt=""
+                  alt="Dark Mode Toggle"
                   width={24}
                   height={24}
                 />

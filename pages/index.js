@@ -60,7 +60,7 @@ export default function Home() {
         <Image
           src="https://queue.simpleanalyticscdn.com/noscript.gif"
           alt=""
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
           width={0}
           height={0}
         />
