@@ -51,16 +51,12 @@ export default function Home() {
 
   return (
     <>
-      <Script
-        async
-        defer
-        src="https://scripts.simpleanalyticscdn.com/latest.js"
-      ></Script>
+      <Script async defer src="https://sa.srijit.life/latest.js"></Script>
       <noscript>
         <Image
-          src="https://queue.simpleanalyticscdn.com/noscript.gif"
-          alt=""
-          referrerPolicy="no-referrer-when-downgrade"
+          src="https://sa.srijit.life/noscript.gif"
+          alt="analytics"
+          referrerpolicy="no-referrer-when-downgrade"
           width={0}
           height={0}
         />
