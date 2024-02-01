@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 const App = ({ Component, pageProps }) => {
   return (
-    <ThemeProvider defaultTheme="system">
+    <ThemeProvider defaultTheme="light">
       <Analytics />
       <SpeedInsights />
       <NextSeo
