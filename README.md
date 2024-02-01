@@ -13,7 +13,7 @@
 </div>
 </br>
 
-This is a personal website built using Next.js, a React framework for building server-side rendered and static websites. The site includes features like a blog and resume section. It dynamically fetches data from `data/portfolio.json` to populate the content.
+This is a personal website built using Next.js, a React framework for building server-side rendered and static websites. The site includes features like a blog and resume section. It dynamically fetches data from `data/portfolio.json` to populate the content. It is designed to be easy to edit and customize. It is heavily SEO optimized and almost has a 100% score on core web vitals and lighthouse for all of the 4 criterias (Performance 100%, Accessibility 96%, Best Practices 100% & SEO 100%).
 
 ## Features
 
@@ -38,12 +38,14 @@ This is a personal website built using Next.js, a React framework for building s
 5. Open your browser and visit `http://localhost:3000` to view the site.
 6. Edit `data/portfolio.json` to add your own content.
 7. Put your own calendly URL in `components/Footer/index.js` to enable the Calendly button.
+8. Edit `public/sitemap.xml` to add your own domain.
 
 ## Usage
 
 - To create a new blog post, click on the "Add New Post +" button in the bottom right corner of the page. This feature is only available in the development environment.
 - To edit a blog post, click on the "Edit this blog" button at the bottom of the blog post page. This feature is only available in the development environment.
 - To delete a blog post, click on the "Delete" button at the bottom of the blog post page. This feature is only available in the development environment.
+- Apart from the blogs, all of the data on the website can be edited through the edit data button on the pages when in development mode.
 
 ## Contributing
 
