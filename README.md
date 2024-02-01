@@ -13,7 +13,9 @@
 </div>
 </br>
 
-This is a personal website built using Next.js, a React framework for building server-side rendered and static websites. The site includes features like a blog and resume section. It dynamically fetches data from `data/portfolio.json` to populate the content. It is designed to be easy to edit and customize. It is heavily SEO optimized and almost has a 100% score on core web vitals and lighthouse for all of the 4 criterias (Performance 100%, Accessibility 96%, Best Practices 100% & SEO 100%).
+This is a personal website built using Next.js, a React framework for building server-side rendered and static websites. The site includes features like a blog and resume section. It dynamically fetches data from `data/portfolio.json` to populate the content. It is designed to be easy to edit and customize. It is heavily SEO optimized and almost has a 100% score on core web vitals and lighthouse for all of the 4 criterias (Performance 99%, Accessibility 100%, Best Practices 100% & SEO 100%).
+
+![SEO](https://cloud-q7z4xc5mb-hack-club-bot.vercel.app/0screenshot_2024-02-02_at_1.18.45___am.png)
 
 ## Features
 
