@@ -20,7 +20,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="srijit, srijit ghosh, srijit ghosh developer, srijit developer, srijit ghosh coder, srijit coder, srijit ghosh teenager, srijit teenager, srijit .life, srijit ghosh .life"
+          content="srijit, srijit ghosh, srijit ghosh developer, srijit developer, srijit ghosh coder, srijit coder, srijit ghosh teenager, srijit teenager, srijit .life, srijit ghosh .life, teenager srijit, teenager srijit ghosh, srijit hackclub, srijit ghosh hackclub, srijit ghosh hackclubber, srijit hackclubber, srijit codeday, srijit ghosh codeday, srijit codeday kolkata, srijit ghosh codeday kolkata, codeday kolkata, codeday, hackclub, the code cafe, the code cafe leaders, the code cafe hackclub, the code cafe founder"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
