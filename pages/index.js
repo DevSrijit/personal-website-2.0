@@ -12,6 +12,7 @@ import Link from "next/link";
 import Cursor from "../components/Cursor";
 import Script from "next/script";
 import Image from "next/image";
+import { useEffect } from "react";
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -48,6 +49,12 @@ export default function Home() {
       { y: 0, x: 0, transform: "scale(1)" }
     );
   }, []);
+  
+  /*I am doing this because of better aesthetics,
+  while still maintaining the SEO boost from the site's title as a keyword (Srijit's Personal Website)*/
+  useEffect(() => {
+    document.title = "Srijit Ghosh";
+  }, []);
 
   return (
     <>
@@ -64,7 +71,7 @@ export default function Home() {
       <div className={`relative ${data.showCursor && "cursor-none"}`}>
         {data.showCursor && <Cursor />}
         <Head>
-          <title>Srijit Ghosh</title>
+          <title>Srijit&apos;s Personal Website</title>
         </Head>
 
         <div className="gradient-circle"></div>
