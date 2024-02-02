@@ -41,6 +41,7 @@ This is a personal website built using Next.js, a React framework for building s
 6. Edit `data/portfolio.json` to add your own content.
 7. Put your own calendly URL in `components/Footer/index.js` to enable the Calendly button.
 8. Edit `public/sitemap.xml` to add your own domain.
+9. Create an environment variable called `NEXT_PUBLIC_GA_ID` in `.env.local` and set it to your Google Analytics Measurement ID to enable Google Analytics.
 
 ## Usage
 

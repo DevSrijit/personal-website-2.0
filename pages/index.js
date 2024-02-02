@@ -56,7 +56,7 @@ export default function Home() {
         <Image
           src="https://sa.srijit.life/noscript.gif"
           alt="analytics"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
           width={0}
           height={0}
         />
