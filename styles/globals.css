@@ -17,16 +17,25 @@ body {
   pointer-events: none;
   z-index: 100;
   top: -30px;
-  height: 40px;
+  height:75px;
   width: 100vw;
   opacity: 0.5;
   filter: blur(40px);
-  background: radial-gradient(
-    circle,
-    rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+  background: linear-gradient(
+    90deg,
+    hsl(0, 100%, 50%) 0%,
+    hsl(36, 100%, 50%) 8.33%,
+    hsl(72, 100%, 50%) 16.66%,
+    hsl(108, 100%, 50%) 25%,
+    hsl(144, 100%, 50%) 33.33%,
+    hsl(180, 100%, 50%) 41.66%,
+    hsl(216, 100%, 50%) 50%,
+    hsl(252, 100%, 50%) 58.33%,
+    hsl(288, 100%, 50%) 66.66%,
+    hsl(324, 100%, 50%) 75%
   );
 }
+
 .gradient-circle-bottom {
   position: absolute;
   pointer-events: none;
@@ -36,10 +45,18 @@ body {
   width: 100vw;
   opacity: 0.5;
   filter: blur(40px);
-  background: radial-gradient(
-    circle,
-    rgba(248, 107, 223, 1) 0%,
-    rgba(107, 107, 248, 0.8) 100%
+  background: linear-gradient(
+    90deg,
+    hsl(0, 100%, 50%) 0%,
+    hsl(36, 100%, 50%) 8.33%,
+    hsl(72, 100%, 50%) 16.66%,
+    hsl(108, 100%, 50%) 25%,
+    hsl(144, 100%, 50%) 33.33%,
+    hsl(180, 100%, 50%) 41.66%,
+    hsl(216, 100%, 50%) 50%,
+    hsl(252, 100%, 50%) 58.33%,
+    hsl(288, 100%, 50%) 66.66%,
+    hsl(324, 100%, 50%) 75%
   );
 }
 
