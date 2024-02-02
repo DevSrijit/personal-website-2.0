@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript, Meta } from "next/document";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function Document() {
   return (
@@ -31,9 +30,6 @@ export default function Document() {
         <Main />
         <NextScript />
       </body>
-      {process.env.GoogleAnalytics && (
-        <GoogleAnalytics gaId={process.env.GoogleAnalytics} />
-      )}
     </Html>
   );
 }
