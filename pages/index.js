@@ -49,12 +49,6 @@ export default function Home() {
       { y: 0, x: 0, transform: "scale(1)" }
     );
   }, []);
-  
-  /*I am doing this because of better aesthetics,
-  while still maintaining the SEO boost from the site's title as a keyword (Srijit's Personal Website)*/
-  useEffect(() => {
-    document.title = "Srijit Ghosh";
-  }, []);
 
   return (
     <>
