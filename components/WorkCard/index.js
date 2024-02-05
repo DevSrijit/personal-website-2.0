@@ -17,7 +17,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
           src={img}
           priority={true}
           fill={true}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw, 400px"
         />
       </div>
       <h1 className="mt-5 text-3xl font-medium">
