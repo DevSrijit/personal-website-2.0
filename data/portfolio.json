@@ -1,1 +1,116 @@
-{"name":"Srijit","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Srijit Ghosh - curious","headerTaglineThree":"frontend developer and technologist","headerTaglineFour":" based in Kolkata, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/devsrijit"},{"id":"2","title":"Instagram","link":"https://www.instagram.com/cheeseblock011"},{"id":"4","title":"Blog","link":"/blog"},{"id":"5","title":"Email","link":"mailto:srijit.dev@icloud.com"}],"projects":[{"id":"1","title":"Poetic Echoes","description":"Full Stack Development","imageSrc":"https://cloud-ppyu19102-hack-club-bot.vercel.app/0_c4363f81-a2df-41ba-bfc1-60cb252df085.jpeg","url":"https://poetic-echoes.srijit.life/"},{"id":"2","title":"Paradox","description":"Web Development","imageSrc":"https://cloud-a8i9f763o-hack-club-bot.vercel.app/0astronomical_3d_illustration.jpeg","url":"https://paradox.srijit.life/"},{"id":"3","title":"Artiverse","description":"AI & API Integration","imageSrc":"https://cloud-a7uy4sxh9-hack-club-bot.vercel.app/0ai_text.jpeg","url":"https://artiverse.srijit.life/"},{"id":"4","title":"My Bucket List","description":"Creative UI Development","imageSrc":"https://cloud-5dcd65ay2-hack-club-bot.vercel.app/0bucket_list_3d_illustration.jpeg","url":"https://list.srijit.life/"},{"id":"5","title":"Code Cafe - A Coding Club","description":"Development","imageSrc":"https://cloud-3etw3azne-hack-club-bot.vercel.app/0code_cafe.jpeg","url":"http://codecafe.hackclub.com/"},{"id":"6","title":"My Card","description":"Design & Development","imageSrc":"https://cloud-jeapr8koy-hack-club-bot.vercel.app/0contact_card_illustration.jpeg","url":"http://card.srijit.life/"}],"services":[{"id":"1","title":"Frontend Development","description":"I can make websites with the latest js frameworks like nextjs and react!"},{"id":"2","title":"Full Stack Development","description":"Still learning backend but I can make full stack websites using mondodb, firebase and appwrite!"},{"id":"3","title":"Miscellanous","description":"Apart from web development, I can code in python, java and node.js!"},{"id":"4","title":"3D Websites","description":"I've been using three.js for a while, and I can make 3D websites using three.js/spline/threatre.js!"}],"aboutpara":"Hi there 👋! I'm a high school student from India currently studying in 10th grade. I'm passionate about coding and electronics. I love nerd stuff, web development, listening to music, and being productive. Typical Hollywood nerd 🧑🏼‍💻🙃! Welcome to my website!","resume":{"tagline":"👋  I'm a self-learnt frontend developer","description":"I spend my time learning and building stuff. I love to code and I'm always looking for new opportunities to learn and grow. I have 2 years of experience in web development. I organise hackathons, and lead a coding club in my school. I am currently working on improving my skills, and gaining experience from self-made projects.","experiences":[{"id":"1","dates":"2023 - Present","type":"Voluntary","position":"Assistant regional manager at CodeDay.","bullets":"I organized the first teenager's hackathon in Kolkata"}],"education":{"universityName":"High School","universityDate":"Currently in XI-th grade","universityPara":"Working my way through high school. I'm currently in 10th grade. I lead a high school coding club named Code Cafe which is under the global umbrella of Hack Club."},"languages":["Javascript & Typescript","HTML5","CSS","Python","Java","SQL"],"frameworks":["React","Next.js","NodeJs"],"others":["Spline","MongoDB","Firebase","Vercel","Appwrite"]}}
+{
+  "name": "Srijit",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Srijit Ghosh - curious",
+  "headerTaglineThree": "frontend developer and technologist",
+  "headerTaglineFour": " based in Kolkata, India.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/devsrijit" },
+    {
+      "id": "2",
+      "title": "Instagram",
+      "link": "https://www.instagram.com/cheeseblock011"
+    },
+    { "id": "4", "title": "Blog", "link": "/blog" },
+    { "id": "5", "title": "Email", "link": "mailto:srijit.dev@icloud.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Poetic Echoes",
+      "description": "Full Stack Development",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/7poetic-echoes.webp",
+      "url": "https://poetic-echoes.srijit.life/"
+    },
+    {
+      "id": "2",
+      "title": "Paradox",
+      "description": "Web Development",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/1astronomical_3d_illustration.webp",
+      "url": "https://paradox.srijit.life/"
+    },
+    {
+      "id": "3",
+      "title": "Artiverse",
+      "description": "AI & API Integration",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/0ai_text.webp",
+      "url": "https://artiverse.srijit.life/"
+    },
+    {
+      "id": "4",
+      "title": "My Bucket List",
+      "description": "Creative UI Development",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/2bucket_list_3d_illustration.webp",
+      "url": "https://list.srijit.life/"
+    },
+    {
+      "id": "5",
+      "title": "Code Cafe - A Coding Club",
+      "description": "Development",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/3code_cafe.webp",
+      "url": "http://codecafe.hackclub.com/"
+    },
+    {
+      "id": "6",
+      "title": "My Card",
+      "description": "Design & Development",
+      "imageSrc": "https://cloud-nz8dggjws-hack-club-bot.vercel.app/4contact_card_illustration.webp",
+      "url": "http://card.srijit.life/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development",
+      "description": "I can make websites with the latest js frameworks like nextjs and react!"
+    },
+    {
+      "id": "2",
+      "title": "Full Stack Development",
+      "description": "Still learning backend but I can make full stack websites using mondodb, firebase and appwrite!"
+    },
+    {
+      "id": "3",
+      "title": "Miscellanous",
+      "description": "Apart from web development, I can code in python, java and node.js!"
+    },
+    {
+      "id": "4",
+      "title": "3D Websites",
+      "description": "I've been using three.js for a while, and I can make 3D websites using three.js/spline/threatre.js!"
+    }
+  ],
+  "aboutpara": "Hi there 👋! I'm a high school student from India currently studying in 10th grade. I'm passionate about coding and electronics. I love nerd stuff, web development, listening to music, and being productive. Typical Hollywood nerd 🧑🏼‍💻🙃! Welcome to my website!",
+  "resume": {
+    "tagline": "👋  I'm a self-learnt frontend developer",
+    "description": "I spend my time learning and building stuff. I love to code and I'm always looking for new opportunities to learn and grow. I have 2 years of experience in web development. I organise hackathons, and lead a coding club in my school. I am currently working on improving my skills, and gaining experience from self-made projects.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2023 - Present",
+        "type": "Voluntary",
+        "position": "Assistant regional manager at CodeDay.",
+        "bullets": "I organized the first teenager's hackathon in Kolkata"
+      }
+    ],
+    "education": {
+      "universityName": "High School",
+      "universityDate": "Currently in XI-th grade",
+      "universityPara": "Working my way through high school. I'm currently in 10th grade. I lead a high school coding club named Code Cafe which is under the global umbrella of Hack Club."
+    },
+    "languages": [
+      "Javascript & Typescript",
+      "HTML5",
+      "CSS",
+      "Python",
+      "Java",
+      "SQL"
+    ],
+    "frameworks": ["React", "Next.js", "NodeJs"],
+    "others": ["Spline", "MongoDB", "Firebase", "Vercel", "Appwrite"]
+  }
+}
