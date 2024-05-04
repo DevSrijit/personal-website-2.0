@@ -11,11 +11,11 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://cloud-nz8dggjws-hack-club-bot.vercel.app/5frontend_dev.webp"
+          content="https://cloud-5gje1km9y-hack-club-bot.vercel.app/0logo_lg.png"
         />
         <meta
           name="twitter:image"
-          content="https://cloud-nz8dggjws-hack-club-bot.vercel.app/5frontend_dev.webp"
+          content="https://cloud-5gje1km9y-hack-club-bot.vercel.app/0logo_lg.png"
         />
         <meta
           name="keywords"
