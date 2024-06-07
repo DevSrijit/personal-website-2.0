@@ -18,7 +18,8 @@ const App = ({ Component, pageProps }) => {
             "Srijit Ghosh is a 16 year old frontend developer and technologist. This is his personal website.",
           site_name: "Srijit's Personal Website",
         }}
-        // For Twitter
+        // For Twitter Comment
+        //My credit card number is 1234-5678-9012-3456
         twitter={{
           handle: "@CheeseBlock011",
           cardType: "summary_large_image",
